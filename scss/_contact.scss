@@ -1,0 +1,176 @@
+header.masterHeader {
+  background-image: url("https://images.unsplash.com/photo-1511287381215-8c58b84f8896?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+  max-height: 700px;
+  padding-top: 5em;
+
+
+  h1 {
+    color: white;
+    font-size: 2.5em;
+  }
+
+}
+  #privacyPolicy {
+    background-image: url("https://images.unsplash.com/photo-1585152002465-43c1f64b95d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
+    height: 45vh;
+  }
+.contactPageContainer {
+  .contactPageHeader {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  p {
+    font-size: 1.2em;
+    color: $primary;
+    margin-bottom: 0;
+  }
+
+  .contactPageBullet {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-left: 32px;
+
+    .contactPageBulletSecondary {
+      font-size: 1.1em;
+      color: #888888;
+    }
+    .contactPageBulletPrimary {
+      font-size: 1.3em;
+      a {
+        color: $primary;
+        text-decoration: none;
+        transition: 0.2s ease;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+    i {
+      font-size: 3em;
+      color: $primary;
+      margin-right: 16px;
+    }
+  }
+
+  .contactPageInfoContainer {
+    flex-direction: column-reverse;
+  }
+
+  .contactPageInfo {
+    width: 100%;
+  }
+
+  .bullets {
+    padding: 40px;
+    background-color: $grayBackground;
+  }
+}
+.formContainer {
+  margin-bottom: 40px;
+  p {
+    color: $primary;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 40px 0 40px 0;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  .formRow {
+    flex-direction: column;
+  }
+  input {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 29px;
+    border: 1px solid $grayBorder;
+    padding: 14px;
+    margin: 10px;
+  }
+
+  textarea {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 29px;
+    border: 1px solid $grayBorder;
+    padding: 14px;
+    margin: 10px;
+  }
+  button {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 29px;
+    border: 1px solid $grayBorder;
+    padding: 14px;
+    margin: 10px;
+    transition: 0.2s ease;
+  }
+  button:hover {
+    background-color: $vividCerulean;
+    color: white;
+  }
+  .primary {
+    background-color: $primary;
+    color: white;
+  }
+  .error {
+    color: #e21f1f;
+    font-size: 0.8em;
+    margin-left: 16px;
+  }
+  label {
+    padding-top: 6px;
+  }
+
+}
+
+
+@media (min-width: 768px) {
+  header.masterHeader {
+    height: 80vh;
+    padding-top: 10em;
+    h1 {
+      font-size: 3em;
+    }
+  }
+    .contactPageHeader {
+    p {
+      font-size: 1.5em;
+    }
+  }
+  .contactPageContainer {
+    p {
+      font-size: 2em;
+    }
+    .contactPageBullet {
+      .contactPageBulletPrimary {
+        font-size: 1.5em;
+      }
+    }
+    .contactPageInfoContainer {
+      flex-direction: row;
+    }
+  }
+  .contactPageInfo {
+    width: 50%;
+  }
+  .formContainer {
+    p {
+      font-size: 1.5em;
+    }
+    .formRow {
+      flex-direction: row;
+      input {
+        width: 50%;
+      }
+    }
+    .formRowButtons {
+      flex-direction: row-reverse;
+    }
+  }
+}

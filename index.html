@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./dist/styles.css">
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top navbarCustom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">OKNA-KONIN.PL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-sm-between" id="navbarCollapse">
+        <div class="d-flex contactCluster">
+          <div class="contactContainer">
+            <i class="fa fa-phone"></i>
+            <div class="infoContainer">
+              <a class="infoContainerPrimary" href="">+48 731 050 870</a>
+              <a class="infoContainerSecondary" href="">wyceny@okna-konin.pl</a>
+            </div>
+          </div>
+          <div class="contactContainer">
+            <i class="fa fa-map-marker"></i>
+            <div class="infoContainer">
+              <a class="infoContainerPrimary" id="infoContainerCompanyName" href="">E.J. Trans</a>
+              <a class="infoContainerSecondary" href="">Mikorzyn 17, 62-561 Mikorzyn</a>
+            </div>
+          </div>
+        </div>
+        <ul class="navbar-nav">
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link active" aria-current="page" href="#">Nasze realizacje</a>-->
+<!--          </li>-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nasze produkty
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./oferta/okna.html">Okna</a></li>
+              <li><a class="dropdown-item" href="./oferta/drzwi.html">Drzwi</a></li>
+              <li><a class="dropdown-item" href="./oferta/rolety.html">Rolety</a></li>
+              <li><a class="dropdown-item" href="./oferta/dodatki.html">Dodatki</a></li>
+              <li><a class="dropdown-item" href="./oferta/montaz.html">Montaż</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html" tabindex="-1">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide customCarousel" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+<!--        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>-->
+        <img src="img/test.jpg" alt="Girl in a jacket" width="100%" height="100%">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h2>Kompleksowa oferta</h2>
+            <p>Okna, drzwi i wiele więcej</p>
+            <p><a class="btn btn-lg btn-primary" id="offerLink" href="#offerHeading">Zobacz ofertę</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/montaz.jpg" alt="Girl in a jacket" width="100%" height="100%">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h2>Profesjonalny montaż</h2>
+            <p>Nasi specjaliści robią jak u siebie</p>
+            <p><a class="btn btn-lg btn-primary" href="./oferta/montaz.html">Dowiedz się więcej</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h2>One more for good measure.</h2>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="marketing">
+
+    <!-- Three columns of text below the carousel -->
+
+    <!-- START THE FEATURETTES -->
+    <div class="container">
+      <hr class="featurette-divider">
+    </div>
+
+
+    <div class="row justify-content-center offerHeading" id="offerHeading">
+      <div class="col-lg-6 text-center">
+        <h1>NASZA <b>OFERTA</b></h1>
+      </div>
+    </div>
+
+    <div class="ourOfferNav">
+      <div class="container">
+        <ul class="ourOfferList">
+          <li class="activeListItem" id="ourOfferWindow">Okna</li>
+          <li id="ourOfferDoors">Drzwi</li>
+          <li id="ourOfferBlinds">Rolety</li>
+          <li id="ourOfferMisc">Dodatki</li>
+          <li id="ourOfferMontage">Montaż</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="ourOfferContainer" class="container">
+    </div>
+    <div class="container">
+      <hr class="montageDivider">
+    </div>
+
+    <div class="container d-flex justify-content-center featureContainer">
+      <div class="feature">
+        <div class="iconContainer">
+          <i class="fa fa-check"></i>
+        </div>
+        <p class="featureDescription">Najwyższa jakość</p>
+      </div>
+      <div class="feature">
+        <div class="iconContainer">
+          <i class="fa fa-fighter-jet"></i>
+        </div>
+        <p class="featureDescription">Szybka realizacja</p>
+      </div>
+      <div class="feature">
+        <div class="iconContainer">
+          <i class="fa fa-crop"></i>
+        </div>
+        <p class="featureDescription">Bezpłatny pomiar <br/> Konin i okolice</p>
+      </div>
+      <div class="feature">
+        <div class="iconContainer">
+          <i class="fa fa-shopping-cart"></i>
+        </div>
+        <p class="featureDescription">Bogata oferta</p>
+      </div>
+    </div><!-- /.row -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <div class="container">
+    <hr id="footerTopBorder">
+  </div>
+  <footer class="customFooter">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-4">
+          <h1>OKNA-KONIN.PL</h1>
+          <hr class="footerDivider">
+          <p>Jesteśmy profesjonalną firmą z branży stolarki okiennej. Mamy ponad 30 lat doświadczenia i zapewniamy kompleksowe usługi. Od fachowego doradztwa, poprzez bezpłatne pomiary, a kończąc na autoryzowanym montażu okien w Warszawie i okolicach.</p>
+        </div>
+        <div class="col-lg-5 d-flex">
+          <div class="footerInfo">
+            <p class="fw-bold">Nasze produkty</p>
+            <ul>
+              <li><a href="./oferta/okna.html">Okna</a></li>
+              <li><a href="./oferta/drzwi.html">Drzwi</a></li>
+              <li><a href="./oferta/rolety.html">Rolety</a></li>
+              <li><a href="./oferta/dodatki.html">Dodatki</a></li>
+              <li><a href="./oferta/montaz.html">Montaż</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="footerContact">
+              <p class="fw-bold">Nasze biuro</p>
+              <p>E.J. Trans Hurtownia materiałów budowlanych</p>
+              <p>Mikorzyn 17, 62-561 Mikorzyn</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="d-flex footerSocial">
+        <i class="fa fa-facebook-square"></i>
+        <i class="fa fa-instagram"></i>
+      </div>
+      <div class="container footerBottom">
+        <hr id="footerBottomBorder">
+        <p>© 2021 OKNA-KONIN</p>
+        <p>Profesjonalny montaż okien w Koninie i okolicach. Okna, drzwi, rolety, parapety</p>
+      </div>
+    </div>
+
+  </footer>
+
+</main>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="vendor/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

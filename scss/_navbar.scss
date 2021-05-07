@@ -1,0 +1,89 @@
+.navbarCustom {
+  background-color: $primary;
+  padding: 16px;
+  -webkit-box-shadow: 1px -8px 44px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px -8px 44px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px -8px 44px 0px rgba(0,0,0,0.75);
+
+  .contactContainer {
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    i {
+      display: none;
+    }
+  }
+
+  .contactCluster {
+    flex-direction: column;
+  }
+
+  .infoContainer {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+
+    #infoContainerCompanyName {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 500px) {
+    padding: 36px;
+
+    .navbar-brand {
+      font-weight: 600;
+      font-size: 1.9em;
+    }
+
+    .contactCluster {
+      flex-direction: row;
+    }
+
+    .contactContainer {
+      display: flex;
+      a {
+        //text-decoration: none;
+        transition: 0.2s ease;
+        &:hover {
+          color: darkgray;
+        }
+      }
+
+      i {
+        display: block;
+        font-size: 2em;
+        color: $vividCerulean;
+        margin: 10px;
+        margin-right: 16px;
+      }
+    }
+
+    .infoContainer {
+      display: flex;
+      flex-direction: column;
+      margin-right: 12px;
+      a {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+      .infoContainerPrimary {
+        font-size: 1.2em;
+        color: white;
+      }
+      .infoContainerSecondary {
+        color: gray;
+      }
+
+      #infoContainerCompanyName {
+        display: block;
+      }
+    }
+
+  }
+}

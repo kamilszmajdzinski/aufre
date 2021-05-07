@@ -1,0 +1,552 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+.offerHeading {
+  margin-bottom: 4rem;
+  color: #152c40; }
+
+.cardCustom {
+  margin: 4px;
+  width: 100%; }
+
+.ourOfferList {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px; }
+  .ourOfferList a {
+    text-decoration: none;
+    color: #5a5a5a; }
+  .ourOfferList li {
+    padding: 24px; }
+  .ourOfferList .activeListItem {
+    background-color: #152c40;
+    color: white;
+    border-radius: 50px; }
+
+.cardContainer {
+  flex-direction: column;
+  margin-bottom: 50px; }
+
+.featureContainer {
+  flex-direction: column;
+  margin-bottom: 16px; }
+
+.feature {
+  text-align: center;
+  margin: 16px; }
+  .feature .iconContainer {
+    font-size: 4em;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #152c40;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: 0.2s ease; }
+    .feature .iconContainer:hover {
+      background-color: #152c40;
+      color: white; }
+      .feature .iconContainer:hover i {
+        color: white; }
+    .feature .iconContainer i {
+      color: #152c40; }
+  .feature .featureDescription {
+    margin-top: 16px;
+    font-size: 1.2em;
+    color: #152c40; }
+
+.montageDivider {
+  margin: 2rem 0;
+  height: 2px !important;
+  color: #152C40;
+  border: 0;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.45), rgba(200, 200, 200, 0)); }
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem; }
+  .customCarousel {
+    margin-top: 120px; }
+  .featureContainer {
+    flex-direction: row; }
+  .cardCustom {
+    margin: 8px;
+    width: 25%; }
+  .ourOfferNav {
+    border: 1px solid #e8e8e8;
+    background-color: #f9f9f9;
+    margin-bottom: 48px; }
+  .cardContainer {
+    flex-direction: row; }
+  .ourOfferList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0; }
+    .ourOfferList .activeListItem {
+      color: blue;
+      border-bottom: 3px solid blue;
+      border-radius: 0px;
+      background-color: inherit; }
+    .ourOfferList li {
+      margin: 0 10px;
+      padding: 32px 0;
+      font-size: 22px;
+      text-decoration: none;
+      transition: 0.2s ease;
+      border-bottom: 3px solid transparent; }
+    .ourOfferList li:hover {
+      cursor: pointer;
+      border-bottom: 3px solid #152c40; } }
+
+.offerImage {
+  width: 500px;
+  height: 500px; }
+
+.carousel-item img {
+  object-fit: cover; }
+
+.carousel-caption h2 {
+  text-shadow: 4px 4px 13px black; }
+
+.carousel-caption p {
+  text-shadow: 4px 4px 13px black; }
+
+.navbarCustom {
+  background-color: #152c40;
+  padding: 16px;
+  -webkit-box-shadow: 1px -8px 44px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -8px 44px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px -8px 44px 0px rgba(0, 0, 0, 0.75); }
+  .navbarCustom .contactContainer a {
+    text-decoration: none;
+    color: white; }
+  .navbarCustom .contactContainer i {
+    display: none; }
+  .navbarCustom .contactCluster {
+    flex-direction: column; }
+  .navbarCustom .infoContainer {
+    display: flex;
+    flex-direction: column; }
+    .navbarCustom .infoContainer a {
+      padding-top: 8px;
+      padding-bottom: 8px; }
+    .navbarCustom .infoContainer #infoContainerCompanyName {
+      display: none; }
+  @media only screen and (min-width: 500px) {
+    .navbarCustom {
+      padding: 36px; }
+      .navbarCustom .navbar-brand {
+        font-weight: 600;
+        font-size: 1.9em; }
+      .navbarCustom .contactCluster {
+        flex-direction: row; }
+      .navbarCustom .contactContainer {
+        display: flex; }
+        .navbarCustom .contactContainer a {
+          transition: 0.2s ease; }
+          .navbarCustom .contactContainer a:hover {
+            color: darkgray; }
+        .navbarCustom .contactContainer i {
+          display: block;
+          font-size: 2em;
+          color: #00A8E8;
+          margin: 10px;
+          margin-right: 16px; }
+      .navbarCustom .infoContainer {
+        display: flex;
+        flex-direction: column;
+        margin-right: 12px; }
+        .navbarCustom .infoContainer a {
+          padding-top: 0px;
+          padding-bottom: 0px; }
+        .navbarCustom .infoContainer .infoContainerPrimary {
+          font-size: 1.2em;
+          color: white; }
+        .navbarCustom .infoContainer .infoContainerSecondary {
+          color: gray; }
+        .navbarCustom .infoContainer #infoContainerCompanyName {
+          display: block; } }
+
+#footerTopBorder {
+  margin: 0;
+  color: #152c40;
+  height: 3px;
+  opacity: 1; }
+
+.customFooter {
+  background-color: #f9f9f9;
+  color: #152c40;
+  padding-top: 36px;
+  padding-bottom: 36px; }
+  .customFooter .footerSocial i {
+    font-size: 3em;
+    margin: 16px;
+    transition: 0.2s ease;
+    color: #152c40; }
+  .customFooter .footerSocial i:hover {
+    color: #00A8E8; }
+  .customFooter h1 {
+    font-weight: bold; }
+  .customFooter hr {
+    border: 0;
+    height: 3px;
+    background: #152c40;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#00A8E8), to(#00A8E8), color-stop(50%, #152c40)); }
+  .customFooter .footerInfo {
+    width: 50%; }
+    .customFooter .footerInfo p {
+      margin-bottom: 8px; }
+    .customFooter .footerInfo li a {
+      transition: 0.2s ease;
+      text-decoration: none;
+      color: #152c40; }
+    .customFooter .footerInfo a:hover {
+      cursor: pointer;
+      color: #00A8E8; }
+  .customFooter .footerBottom {
+    color: #7b7b7b; }
+    .customFooter .footerBottom p {
+      margin-bottom: 2px;
+      font-size: 0.9em; }
+  .customFooter .footerContact p {
+    margin-bottom: 8px; }
+  .customFooter #footerBottomBorder {
+    margin: 0;
+    color: #e8e8e8;
+    height: 3px;
+    opacity: 1;
+    background: #e8e8e8;
+    margin-bottom: 16px; }
+
+header.masterHeader {
+  background-image: url("https://images.unsplash.com/photo-1511287381215-8c58b84f8896?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+  max-height: 700px;
+  padding-top: 5em; }
+  header.masterHeader h1 {
+    color: white;
+    font-size: 2.5em; }
+
+#privacyPolicy {
+  background-image: url("https://images.unsplash.com/photo-1585152002465-43c1f64b95d2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
+  height: 45vh; }
+
+.contactPageContainer .contactPageHeader {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+.contactPageContainer p {
+  font-size: 1.2em;
+  color: #152c40;
+  margin-bottom: 0; }
+
+.contactPageContainer .contactPageBullet {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  margin-left: 32px; }
+  .contactPageContainer .contactPageBullet .contactPageBulletSecondary {
+    font-size: 1.1em;
+    color: #888888; }
+  .contactPageContainer .contactPageBullet .contactPageBulletPrimary {
+    font-size: 1.3em; }
+    .contactPageContainer .contactPageBullet .contactPageBulletPrimary a {
+      color: #152c40;
+      text-decoration: none;
+      transition: 0.2s ease; }
+    .contactPageContainer .contactPageBullet .contactPageBulletPrimary a:hover {
+      text-decoration: underline; }
+  .contactPageContainer .contactPageBullet i {
+    font-size: 3em;
+    color: #152c40;
+    margin-right: 16px; }
+
+.contactPageContainer .contactPageInfoContainer {
+  flex-direction: column-reverse; }
+
+.contactPageContainer .contactPageInfo {
+  width: 100%; }
+
+.contactPageContainer .bullets {
+  padding: 40px;
+  background-color: #f9f9f9; }
+
+.formContainer {
+  margin-bottom: 40px; }
+  .formContainer p {
+    color: #152c40;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 40px 0 40px 0; }
+  .formContainer form {
+    display: flex;
+    flex-direction: column; }
+  .formContainer .formRow {
+    flex-direction: column; }
+  .formContainer input {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 29px;
+    border: 1px solid #e8e8e8;
+    padding: 14px;
+    margin: 10px; }
+  .formContainer textarea {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 29px;
+    border: 1px solid #e8e8e8;
+    padding: 14px;
+    margin: 10px; }
+  .formContainer button {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 29px;
+    border: 1px solid #e8e8e8;
+    padding: 14px;
+    margin: 10px;
+    transition: 0.2s ease; }
+  .formContainer button:hover {
+    background-color: #00A8E8;
+    color: white; }
+  .formContainer .primary {
+    background-color: #152c40;
+    color: white; }
+  .formContainer .error {
+    color: #e21f1f;
+    font-size: 0.8em;
+    margin-left: 16px; }
+  .formContainer label {
+    padding-top: 6px; }
+
+@media (min-width: 768px) {
+  header.masterHeader {
+    height: 80vh;
+    padding-top: 10em; }
+    header.masterHeader h1 {
+      font-size: 3em; }
+  .contactPageHeader p {
+    font-size: 1.5em; }
+  .contactPageContainer p {
+    font-size: 2em; }
+  .contactPageContainer .contactPageBullet .contactPageBulletPrimary {
+    font-size: 1.5em; }
+  .contactPageContainer .contactPageInfoContainer {
+    flex-direction: row; }
+  .contactPageInfo {
+    width: 50%; }
+  .formContainer p {
+    font-size: 1.5em; }
+  .formContainer .formRow {
+    flex-direction: row; }
+    .formContainer .formRow input {
+      width: 50%; }
+  .formContainer .formRowButtons {
+    flex-direction: row-reverse; } }
+
+header.offerHeader {
+  background-image: url("https://images.unsplash.com/photo-1559219432-1962fcaa2752?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+  max-height: 700px;
+  padding-top: 5em;
+  margin-bottom: 16px; }
+  header.offerHeader h1 {
+    color: white;
+    font-size: 2.5em; }
+
+header.montageHeader {
+  height: 55vh;
+  max-height: 700px;
+  padding-top: 5em;
+  margin-bottom: 16px; }
+  header.montageHeader img {
+    position: absolute;
+    max-height: 700px;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 55vh;
+    object-fit: cover; }
+  header.montageHeader h1 {
+    color: white;
+    font-size: 2.5em; }
+
+#doorsHeader {
+  background-image: url("https://images.unsplash.com/photo-1576390168374-88da8d900c9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80"); }
+
+#blindsHeader {
+  background-image: url("https://images.unsplash.com/photo-1612414541756-1d9fad670c5b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"); }
+
+#montageHeader {
+  background-image: "./montaz.jpg"; }
+
+#miscHeader {
+  background-image: url("https://images.unsplash.com/photo-1590997351120-281221b3ceda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80"); }
+
+.offerContainer {
+  margin-top: 36px; }
+
+.productCardImage {
+  margin: auto; }
+  .productCardImage img {
+    width: 200px;
+    padding: 16px; }
+
+.cardCustomProduct {
+  justify-content: space-between; }
+
+.productDescription {
+  padding: 16px; }
+
+.modelContainer {
+  display: flex;
+  flex-direction: column; }
+  .modelContainer img {
+    width: 100%;
+    padding: 80px; }
+  .modelContainer .modelContainerDescription {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .modelContainer .modelContainerDescription a {
+      background-color: #152c40;
+      color: white;
+      border: 1px solid #152c40;
+      border-radius: 50px;
+      text-decoration: none;
+      margin-top: 16px;
+      padding: 16px;
+      transition: 0.2s ease-in; }
+    .modelContainer .modelContainerDescription a:hover {
+      background-color: white;
+      border: 1px solid #152c40;
+      color: #152c40; }
+    .modelContainer .modelContainerDescription hr {
+      margin: 0;
+      width: 100%; }
+    .modelContainer .modelContainerDescription .modelContainerParagraph {
+      font-size: 36px;
+      color: #152c40; }
+    .modelContainer .modelContainerDescription .modelContainerParagraphSecondary {
+      margin-top: 24px;
+      color: gray; }
+
+.offerCaptionHeader {
+  border: 1px solid #e8e8e8;
+  background-color: #f9f9f9;
+  color: #152c40;
+  font-size: 22px;
+  padding: 18px 0px 18px 0px;
+  margin-bottom: 16px; }
+
+.offerCaptionDescription {
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px; }
+
+.otherProducts p {
+  font-size: 36px;
+  color: #152c40;
+  margin-bottom: 24px; }
+
+.otherProducts .productsContainer {
+  flex-direction: column;
+  justify-content: center; }
+
+.otherProducts .otherProduct {
+  border: 1px solid #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin: 36px;
+  transition: 0.2s ease; }
+  .otherProducts .otherProduct hr {
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px; }
+  .otherProducts .otherProduct a {
+    font-size: 18px;
+    color: #152c40;
+    text-decoration: none; }
+  .otherProducts .otherProduct .secondaryOtherProduct {
+    font-size: 16px;
+    color: gray; }
+  .otherProducts .otherProduct img {
+    max-height: 400px;
+    padding: 50px; }
+
+.otherProducts .otherProduct:hover {
+  cursor: pointer;
+  border: 1px solid #152c40; }
+
+.offerLogo {
+  width: 40%; }
+
+#kommerlingLogo {
+  width: 85%; }
+
+#aluplastLogo {
+  width: 85%; }
+
+#alseccoLogo {
+  width: 80%; }
+
+.offerLogoDesc {
+  display: none; }
+
+@media (min-width: 768px) {
+  header.offerHeader {
+    height: 80vh;
+    padding-top: 10em;
+    margin-bottom: 0px; }
+    header.offerHeader h1 {
+      font-size: 3em; }
+  .offerContainer {
+    margin-top: 48px; }
+    .offerContainer .cardCustom:hover {
+      cursor: pointer;
+      background-color: #f9f9f9; }
+  #kommerlingLogo {
+    width: 25%;
+    margin-bottom: 16px; }
+  #alseccoLogo {
+    width: 20%;
+    margin-bottom: 16px; }
+  #aluplastLogo {
+    width: 35%;
+    margin-bottom: 16px; }
+  .offerLogo {
+    width: 10%;
+    margin-bottom: 16px; }
+  .offerLogoDesc {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto; }
+  .modelContainer {
+    flex-direction: row;
+    margin-bottom: 36px; }
+    .modelContainer img {
+      padding: 40px; }
+    .modelContainer .modelContainerDescription {
+      margin-left: 24px; }
+  .otherProducts .productsContainer {
+    flex-direction: row; } }

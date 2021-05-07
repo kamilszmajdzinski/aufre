@@ -1,0 +1,18 @@
+{
+  "name": "aufre",
+  "version": "1.0.0",
+  "description": "Aufre homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamil Szmajdzinski",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}

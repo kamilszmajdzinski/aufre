@@ -1,0 +1,251 @@
+header.offerHeader {
+  background-image: url("https://images.unsplash.com/photo-1559219432-1962fcaa2752?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+  max-height: 700px;
+  padding-top: 5em;
+  margin-bottom: 16px;
+
+
+  h1 {
+    color: white;
+    font-size: 2.5em;
+  }
+}
+
+header.montageHeader {
+  height: 55vh;
+  max-height: 700px;
+  padding-top: 5em;
+  margin-bottom: 16px;
+
+  img {
+    position: absolute;
+    max-height: 700px;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 55vh;
+    object-fit: cover;
+  }
+
+  h1 {
+    color: white;
+    font-size: 2.5em;
+  }
+}
+
+  #doorsHeader {
+    background-image: url("https://images.unsplash.com/photo-1576390168374-88da8d900c9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80")
+  }
+
+  #blindsHeader {
+    background-image: url('https://images.unsplash.com/photo-1612414541756-1d9fad670c5b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80');
+  }
+
+  #montageHeader {
+    background-image: ('./montaz.jpg');
+  }
+
+#miscHeader {
+  background-image: url('https://images.unsplash.com/photo-1590997351120-281221b3ceda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3300&q=80');
+}
+.offerContainer {
+  margin-top: 36px;
+}
+
+.productCardImage {
+  margin: auto;
+  img {
+    width: 200px;
+    padding: 16px;
+  }
+}
+
+.cardCustomProduct {
+  justify-content: space-between;
+}
+.productDescription {
+  padding: 16px;
+}
+
+.modelContainer {
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100%;
+    padding: 80px;
+  }
+  .modelContainerDescription {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a {
+      background-color: #152c40;
+      color: white;
+      border: 1px solid #152c40;
+      border-radius: 50px;
+      text-decoration: none;
+      margin-top: 16px;
+      padding: 16px;
+      transition: 0.2s ease-in;
+    }
+
+    a:hover {
+      background-color: white;
+      border: 1px solid #152c40;
+      color: #152c40;
+    }
+    hr {
+      margin: 0;
+      width: 100%;
+    }
+    .modelContainerParagraph {
+      font-size: 36px;
+      color: $primary;
+    }
+    .modelContainerParagraphSecondary {
+      margin-top: 24px;
+      color: gray;
+    }
+  }
+}
+
+.offerCaptionHeader {
+  border: 1px solid $grayBorder;
+  background-color: $grayBackground;
+  color: $primary;
+  font-size: 22px;
+  padding: 18px 0px 18px 0px ;
+  margin-bottom: 16px;
+}
+.offerCaptionDescription {
+  color: gray;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.otherProducts {
+  p {
+    font-size: 36px;
+    color: $primary;
+    margin-bottom: 24px;
+  }
+  .productsContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .otherProduct {
+    border: 1px solid $grayBorder;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 36px;
+    transition: 0.2s ease;
+    hr {
+      width: 100%;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    a {
+      font-size: 18px;
+      color: $primary;
+      text-decoration: none;
+    };
+    .secondaryOtherProduct {
+      font-size: 16px;
+      color: gray;
+    }
+
+    img {
+      max-height: 400px;
+      padding: 50px;
+    }
+  }
+  .otherProduct:hover {
+    cursor: pointer;
+    border: 1px solid $primary;
+  }
+}
+
+.offerLogo {
+  width: 40%;
+}
+#kommerlingLogo{
+  width: 85%;
+}
+#aluplastLogo {
+  width: 85%;
+}
+#alseccoLogo {
+  width: 80%;
+}
+.offerLogoDesc {
+  display: none;
+}
+@media (min-width: 768px) {
+  header.offerHeader {
+    height: 80vh;
+    padding-top: 10em;
+    margin-bottom: 0px;
+
+    h1 {
+      font-size: 3em;
+    }
+  }
+  .offerContainer {
+    margin-top: 48px;
+    .cardCustom:hover {
+      cursor: pointer;
+      background-color: $grayBackground;
+    }
+  }
+
+  #kommerlingLogo{
+    width: 25%;
+    margin-bottom: 16px;
+  }
+  #alseccoLogo {
+    width: 20%;
+    margin-bottom: 16px;
+  }
+  #aluplastLogo {
+    width: 35%;
+    margin-bottom: 16px;
+  }
+  .offerLogo {
+    width: 10%;
+    margin-bottom: 16px;
+  }
+  .offerLogoDesc {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .modelContainer {
+    flex-direction: row;
+    margin-bottom: 36px;
+    img {
+      padding: 40px;
+    }
+    .modelContainerDescription {
+      margin-left: 24px;
+    }
+  }
+    .otherProducts {
+    .productsContainer {
+      flex-direction: row;
+    }
+
+  }
+}
