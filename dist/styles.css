@@ -431,7 +431,8 @@ header.montageHeader {
       text-decoration: none;
       margin-top: 16px;
       padding: 16px;
-      transition: 0.2s ease-in; }
+      transition: 0.2s ease-in;
+      margin-bottom: 16px; }
     .modelContainer .modelContainerDescription a:hover {
       background-color: white;
       border: 1px solid #152c40;
