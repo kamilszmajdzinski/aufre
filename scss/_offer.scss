@@ -29,6 +29,7 @@ header.montageHeader {
     top: 0;
     left: 0;
     min-width: 100%;
+    max-width: 100%;
     height: 55vh;
     object-fit: cover;
   }
@@ -175,6 +176,33 @@ header.montageHeader {
   .otherProduct:hover {
     cursor: pointer;
     border: 1px solid $primary;
+  }
+}
+
+.woodenWindowsContainer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  h4 {
+    margin-bottom: 48px;
+  }
+
+  a {
+    background-color: #152c40;
+    color: white;
+    border: 1px solid #152c40;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 16px;
+    padding: 16px;
+    transition: 0.2s ease-in;
+    margin-bottom: 16px;
+  }
+
+  a:hover {
+    background-color: white;
+    border: 1px solid #152c40;
+    color: #152c40;
   }
 }
 

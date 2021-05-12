@@ -216,8 +216,10 @@
     .customFooter .footerBottom p {
       margin-bottom: 2px;
       font-size: 0.9em; }
-  .customFooter .footerContact p {
-    margin-bottom: 8px; }
+  .customFooter .footerContact {
+    width: 50%; }
+    .customFooter .footerContact p {
+      margin-bottom: 8px; }
   .customFooter #footerBottomBorder {
     margin: 0;
     color: #e8e8e8;
@@ -272,7 +274,8 @@ header.masterHeader {
   .contactPageContainer .contactPageBullet i {
     font-size: 3em;
     color: #152c40;
-    margin-right: 16px; }
+    margin-right: 16px;
+    min-width: 40px; }
 
 .contactPageContainer .contactPageInfoContainer {
   flex-direction: column-reverse; }
@@ -379,6 +382,7 @@ header.montageHeader {
     top: 0;
     left: 0;
     min-width: 100%;
+    max-width: 100%;
     height: 55vh;
     object-fit: cover; }
   header.montageHeader h1 {
@@ -498,6 +502,26 @@ header.montageHeader {
 .otherProducts .otherProduct:hover {
   cursor: pointer;
   border: 1px solid #152c40; }
+
+.woodenWindowsContainer {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+  .woodenWindowsContainer h4 {
+    margin-bottom: 48px; }
+  .woodenWindowsContainer a {
+    background-color: #152c40;
+    color: white;
+    border: 1px solid #152c40;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 16px;
+    padding: 16px;
+    transition: 0.2s ease-in;
+    margin-bottom: 16px; }
+  .woodenWindowsContainer a:hover {
+    background-color: white;
+    border: 1px solid #152c40;
+    color: #152c40; }
 
 .offerLogo {
   width: 40%; }

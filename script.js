@@ -25,7 +25,7 @@ const windowsHtml = '<div class="d-flex cardContainer justify-content-center">\n
     '          <img class="card-img-top" src="./img/okna_drew.jpg" alt="Card image cap">\n' +
     '          <div class="card-body">\n' +
     '            <h5 class="card-title text-center">Okna drewniane</h5>\n' +
-    '            <a href="#" class="btn btn-primary w-100" style="margin-top: 14px">Sprawdź ofertę</a>\n' +
+    '            <a href="./oferta/okna/oknaDrewniane.html" class="btn btn-primary w-100" style="margin-top: 14px">Sprawdź ofertę</a>\n' +
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="card cardCustom">\n' +
