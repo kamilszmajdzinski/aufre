@@ -16,6 +16,18 @@
   width: 100%;
 }
 
+.headerLogo {
+  width: 80px;
+  margin-right: 24px;
+  margin-bottom: 8px;
+}
+
+.footerLogo {
+  width: 150px;
+  margin-right: 24px;
+  margin-bottom: 8px;
+}
+
 .ourOfferList {
   list-style: none;
   text-align: center;
@@ -88,6 +100,17 @@
 }
 
   @media (min-width: 768px) {
+
+    .headerLogo {
+      width: 100px;
+      margin-right: 24px;
+    }
+
+    .footerLogo {
+      width: 150px;
+      margin-right: 24px;
+      margin-bottom: 8px;
+    }
 
   .bd-placeholder-img-lg {
     font-size: 3.5rem;

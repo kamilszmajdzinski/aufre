@@ -13,6 +13,16 @@
   margin: 4px;
   width: 100%; }
 
+.headerLogo {
+  width: 80px;
+  margin-right: 24px;
+  margin-bottom: 8px; }
+
+.footerLogo {
+  width: 150px;
+  margin-right: 24px;
+  margin-bottom: 8px; }
+
 .ourOfferList {
   list-style: none;
   text-align: center;
@@ -69,6 +79,13 @@
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.45), rgba(200, 200, 200, 0)); }
 
 @media (min-width: 768px) {
+  .headerLogo {
+    width: 100px;
+    margin-right: 24px; }
+  .footerLogo {
+    width: 150px;
+    margin-right: 24px;
+    margin-bottom: 8px; }
   .bd-placeholder-img-lg {
     font-size: 3.5rem; }
   .customCarousel {
