@@ -18,6 +18,9 @@
   margin-right: 24px;
   margin-bottom: 8px; }
 
+.hideOnSmall {
+  display: none; }
+
 .footerLogo {
   width: 150px;
   margin-right: 24px;
@@ -35,7 +38,8 @@
   .ourOfferList .activeListItem {
     background-color: #152c40;
     color: white;
-    border-radius: 50px; }
+    border-radius: 50px;
+    margin: 0 8px; }
 
 .cardContainer {
   flex-direction: column;
@@ -79,6 +83,8 @@
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.45), rgba(200, 200, 200, 0)); }
 
 @media (min-width: 768px) {
+  .hideOnSmall {
+    display: block; }
   .headerLogo {
     width: 100px;
     margin-right: 24px; }
@@ -101,6 +107,9 @@
     margin-bottom: 48px; }
   .cardContainer {
     flex-direction: row; }
+  .complexMenu li {
+    padding: 16px 0;
+    font-size: 18px; }
   .ourOfferList {
     display: flex;
     justify-content: center;
@@ -121,7 +130,12 @@
       border-bottom: 3px solid transparent; }
     .ourOfferList li:hover {
       cursor: pointer;
-      border-bottom: 3px solid #152c40; } }
+      border-bottom: 3px solid #152c40; }
+  .complexMenu {
+    border-bottom: 1px solid #e8e8e8; }
+    .complexMenu li {
+      padding: 16px 0;
+      font-size: 18px; } }
 
 .offerImage {
   width: 500px;
