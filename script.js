@@ -79,7 +79,7 @@ const blindsHtml = '<div class="d-flex cardContainer justify-content-center">\n'
     '            <h5 class="card-title text-center">Natynkowe</h5>\n' +
     '            <p class="card-text text-center">System rolet do montażu we wnęce lub na elewacji.</p>\n' +
     '          </div>\n' +
-    '            <a href="./contact.html" style="margin: 8px" class="btn btn-primary">Zobacz więcej</a>\n' +
+    '            <a href="https://www.portosrolety.pl/st2000" style="margin: 8px" class="btn btn-primary">Zobacz więcej</a>\n' +
     '        </div>\n' +
     '        <div class="card cardCustom justify-content-between">\n' +
     '          <img class="card-img-top" src="./img/podtynk.png" alt="Card image cap">\n' +
@@ -87,7 +87,7 @@ const blindsHtml = '<div class="d-flex cardContainer justify-content-center">\n'
     '            <h5 class="card-title text-center">Podtynkowe</h5>\n' +
     '            <p class="card-text text-center">System rolet do montażu pod zabudowę w elewacji. Rewizja serwisowa od zewnętrznej strony budynku.</p>\n' +
     '          </div>\n' +
-    '            <a href="./contact.html" style="margin: 8px" class="btn btn-primary">Zobacz więcej</a>\n' +
+    '            <a href="https://www.portosrolety.pl/it2000" style="margin: 8px" class="btn btn-primary">Zobacz więcej</a>\n' +
     '        </div>\n' +
     '        <div class="card cardCustom justify-content-between">\n' +
     '          <img class="card-img-top" src="./img/nadstawna.png" alt="Card image cap">\n' +
@@ -95,7 +95,7 @@ const blindsHtml = '<div class="d-flex cardContainer justify-content-center">\n'
     '            <h5 class="card-title text-center">Nadstawne</h5>\n' +
     '            <p class="card-text text-center">System rolet do montażu we wnęce instalacyjnej. Rewizja serwisowa od wewnętrznej strony budynku.</p>\n' +
     '          </div>\n' +
-    '            <a href="./contact.html" style="margin: 8px" class="btn btn-primary">Zobacz więcej</a>\n' +
+    '            <a href="https://www.portosrolety.pl/tl1000l" style="margin: 8px" class="btn btn-primary">Zobacz więcej</a>\n' +
     '        </div>';
 
 const montageHtml = '<div class="row featurette">\n' +
